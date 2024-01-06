@@ -941,7 +941,20 @@ textarea {
     height: 300px; /* Initial height */
     min-height: 400px; /* Minimum height */
   }
+  @media (max-width:770px){
+    .resize {
+  resize: 500px; /* Allow both horizontal and vertical resizing */
+  overflow: auto; /* Show scrollbars if content overflows */
+  position:absolute;
+      left:20%;
+    width: 1600px; /* Initial width */
+    min-width: 250px; /* Minimum width */
+    max-width:1600px; /* Maximum width */
   
+    height: 300px; /* Initial height */
+    min-height: 400px; /* Minimum height */
+  }
+  }
   img{
     width:10%;
     height:25%;
