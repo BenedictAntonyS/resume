@@ -932,8 +932,10 @@ textarea {
 }
 
   img{
-    width:10%;
-    height:25%;
+    width:30%;
+    height:50%;
+    position:relative;
+    border-radius:8vh;
   }
 
 button {
